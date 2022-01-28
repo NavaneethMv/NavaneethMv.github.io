@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+:root {
+  --font-family: "Roboto";
+  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-black: #222;
+}
+
+body {
+  font-family: var(--font-family);
+  background-image: url("images/background.jpg");
+  background-size: 100% 100%;
+}
+
+#myCanvas {
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 20px;
+  /* background: var(--clr-grey-10); */
+  color: var(--clr-grey-1);
+}
+
+.center-canvas {
+  display: grid;
+  place-items: center;
+}
+h1 {
+  text-align: center;
+}
+
+.button-bottom {
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  width: 8rem;
+  color: var(--clr-black);
+}
+
+.button:hover {
+  box-shadow: darkgray;
+}
